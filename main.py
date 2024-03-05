@@ -24,7 +24,9 @@ pyautogui.press('enter')
 
 #buscar arquivos 
 time.sleep(3)
-
+tabela = pandas.read_csv("produtos.csv")
 
 
 #preencher e enviar
+for x in tabela.index:
+    pass
